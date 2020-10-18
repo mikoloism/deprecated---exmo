@@ -1,0 +1,32 @@
+{
+  "name": "exmo",
+  "version": "0.0.1",
+  "description": "the Modular MongoDB in ExpressJS/NodeJS Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miko-github/ExMo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose",
+    "database",
+    "exmo"
+  ],
+  "author": "miko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miko-github/ExMo/issues"
+  },
+  "homepage": "https://github.com/miko-github/ExMo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.5"
+  }
+}
