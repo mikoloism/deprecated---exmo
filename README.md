@@ -65,7 +65,7 @@ i think, that is useful! 🤔 ❤️
     -   **Table (Objected)**
         -   **create object**
             ```javascript
-            const table = db('table');
+            const table = db('table'); // NOTE: `table` should be exist :danger:
             ```
         -   **operations**
             ```javascript
