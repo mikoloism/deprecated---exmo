@@ -1,2 +1,2 @@
-const db = require('./App')('db_name');
-db('table_name'); // usage
+const db = require('./App')();
+console.log(db()); // usage
