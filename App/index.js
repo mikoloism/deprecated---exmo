@@ -1,24 +1,16 @@
 const MongoClient = require('mongodb').MongoClient;
 
-function init(db, table) {
-	const _ = {};
-	_.url = 'mongodb://localhost:27017';
-	_.tableName = table;
-	_.dbName = db;
-	MongoClient.connect(_.url, { useUnifiedTopology: true }, function (
-		err,
-		client,
-	) {
-		if (err) throw err;
-		_.db = client.db(_.dbName);
-		_.table = client.db(_.dbName).collection(_.tableName);
-		client.close();
-	});
-
-	return _; // should be `_.table` as `client.db(...).collection(...);`
-}
-
-module.exports = (db_name) => {
-	init = init.bind(init, db_name);
-	return init;
-};
+const url = 'mongodb://localhost:27017';
+MongoClient.connect(url, { useUnifiedTopology: true }, function (err, client) {
+	if (err) throw err;
+	module.exports = (tableName) => {
+		return tableName;
+		// const dbName = 'db_news';
+		// const $this = {};
+		// $this.connection = client;
+		// $this.dbName = dbName;
+		// $this.db = client.db($this.dbName);
+		// $this.tableName = tableName;
+		// $this.table = client.db($this.dbName).collection($this.tableName);
+	};
+});
