@@ -1,9 +1,4 @@
-# ExMo
-
-> Ex.Mo (ExpressJS, MongoDB) [not Expo! 😉]
-
-The ExMo is **ExpressJS** Module to use easier **MongoDB** as Modular, that help us to work **CRUD** operation with database in any NodeJS;
-i think, that is useful! 🤔 ❤️
+# no-name ![please, wait...](https://img.shields.io/static/v1?label=&message=please%2C+wait...&color=d82)
 
 ## SNIPPET
 
