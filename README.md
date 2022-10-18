@@ -1,5 +1,8 @@
 # no-name ![please, wait...](https://img.shields.io/static/v1?label=&message=please%2C+wait...&color=d82)
 <!--
+functional way to connecto to database;
+support (mongodb and mysql)
+
 ## SNIPPET
 
 > this **snippet** not available at now, but i try to create it! 👍
